@@ -1,0 +1,1159 @@
+[
+  {
+    "exec": "nemo %U",
+    "name": "Files",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/system-file-manager.svg",
+    "categories": "GNOME;GTK;Utility;Core;",
+    "comment": "Access and organize files",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings workspaces",
+    "name": "Workspaces",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-workspaces.svg",
+    "categories": "Settings;",
+    "comment": "Manage workspace preferences",
+    "type": "Application"
+  },
+  {
+    "exec": "warpinator",
+    "name": "Warpinator",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.x.Warpinator.svg",
+    "categories": "GNOME;GTK;Utility;",
+    "comment": "Send and Receive Files across the Network",
+    "type": "Application"
+  },
+  {
+    "exec": "gufw",
+    "name": "Firewall Configuration",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/gufw.svg",
+    "categories": "GNOME;GTK;Settings;Security;X-GNOME-Settings-Panel;X-GNOME-SystemSettings;X-Unity-Settings-Panel;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "An easy way to configure your firewall",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-disks",
+    "name": "Disks",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.DiskUtility.svg",
+    "categories": "GNOME;GTK;Utility;X-GNOME-Utilities;Settings;HardwareSettings;",
+    "comment": "Manage Drives and Media",
+    "type": "Application"
+  },
+  {
+    "exec": "dbus-send --print-reply --dest",
+    "name": "Virtual keyboard",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cinnamon-virtual-keyboard.svg",
+    "categories": "Utility;",
+    "comment": "Turn on-screen keyboard on or off",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/bin/cinnamon2d",
+    "name": "Cinnamon 2D",
+    "categories": "GNOME;GTK;System;Core;",
+    "comment": "Window management and application launching",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice %U",
+    "name": "LibreOffice XSLT based filters",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings fonts",
+    "name": "Font Selection",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-fonts.svg",
+    "categories": "Settings;",
+    "comment": "Configure system fonts",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings online-accounts",
+    "name": "Online Accounts",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-online-accounts.svg",
+    "categories": "Settings;",
+    "comment": "Connect to your online accounts",
+    "type": "Application"
+  },
+  {
+    "exec": "blueman-manager",
+    "name": "Bluetooth Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/blueman.svg",
+    "categories": "GTK;GNOME;Settings;HardwareSettings;",
+    "comment": "Blueman Bluetooth Manager",
+    "type": "Application"
+  },
+  {
+    "exec": "baobab %U",
+    "name": "Disk Usage Analyzer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.baobab.svg",
+    "categories": "GTK;GNOME;System;Filesystem;X-GNOME-Utilities;",
+    "comment": "Check folder sizes and available disk space",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-disk-image-mounter %U",
+    "name": "Disk Image Mounter",
+    "comment": "Mount Disk Images",
+    "type": "Application"
+  },
+  {
+    "exec": "system-config-printer",
+    "name": "Printers",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/printer.svg",
+    "categories": "GNOME;GTK;Settings;HardwareSettings;X-GNOME-Settings-Panel;X-Unity-Settings-Panel;System;Printing;",
+    "comment": "Configure printers",
+    "type": "Application"
+  },
+  {
+    "exec": "rhythmbox-client --select-source %U",
+    "name": "Rhythmbox",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Rhythmbox.svg",
+    "categories": "GNOME;GTK;AudioVideo;",
+    "comment": "Play and organize your music collection",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --math %U",
+    "name": "LibreOffice Math",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-math.svg",
+    "categories": "Office;Spreadsheet;",
+    "comment": "Create and edit scientific formulas and equations by using Math.",
+    "type": "Application"
+  },
+  {
+    "exec": "file-roller %U",
+    "name": "Archive Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.ArchiveManager.svg",
+    "categories": "GTK;GNOME;Utility;Archiving;Compression;X-GNOME-Utilities;",
+    "comment": "Create and modify an archive",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --draw %U",
+    "name": "LibreOffice Draw",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-draw.svg",
+    "categories": "Office;",
+    "comment": "Create and edit drawings, flow charts and logos by using Draw.",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --calc %U",
+    "name": "LibreOffice Calc",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-calc.svg",
+    "categories": "Office;Spreadsheet;",
+    "comment": "Perform calculations, analyze information and manage lists in spreadsheets by using Calc.",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings extensions",
+    "name": "Extensions",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-extensions.svg",
+    "categories": "Settings;",
+    "comment": "Manage your Cinnamon extensions",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings desklets",
+    "name": "Desklets",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-desklets.svg",
+    "categories": "Settings;",
+    "comment": "Manage your Cinnamon desklets",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --base %U",
+    "name": "LibreOffice Base",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-base.svg",
+    "categories": "Office;Database;",
+    "comment": "Manage databases, create queries and reports to track and manage your information by using Base.",
+    "type": "Application"
+  },
+  {
+    "exec": "gdebi-gtk %f",
+    "name": "GDebi Package Installer",
+    "categories": "System;",
+    "comment": "Install and view software packages",
+    "type": "Application"
+  },
+  {
+    "exec": "simple-scan",
+    "name": "Document Scanner",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.SimpleScan.svg",
+    "categories": "GNOME;GTK;Graphics;Scanning;",
+    "comment": "Make a digital copy of your photos and documents",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings network",
+    "name": "Network",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-network.svg",
+    "categories": "GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;",
+    "comment": "Network settings",
+    "type": "Application"
+  },
+  {
+    "exec": "celluloid %U",
+    "name": "Celluloid",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/io.github.celluloid_player.Celluloid.svg",
+    "categories": "GTK;GNOME;AudioVideo;Player;Video;TV;",
+    "comment": "Play movies and videos",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings gestures",
+    "name": "Gestures",
+    "categories": "Settings;",
+    "comment": "Manage touch gestures",
+    "type": "Application"
+  },
+  {
+    "exec": "pkexec mintsources",
+    "name": "Software Sources",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintsources.svg",
+    "categories": "GNOME;GTK;System;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Configure the sources for installable software and updates",
+    "type": "Application"
+  },
+  {
+    "exec": "xviewer %U",
+    "name": "Image Viewer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/xviewer.svg",
+    "categories": "GNOME;GTK;Utility;Viewer;",
+    "comment": "Browse and rotate images",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings backgrounds",
+    "name": "Backgrounds",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-backgrounds.svg",
+    "categories": "Settings;",
+    "comment": "Change your desktop's background",
+    "type": "Application"
+  },
+  {
+    "exec": "nemo-desktop",
+    "name": "Nemo",
+    "comment": "Start Nemo desktop at log in",
+    "type": "Application"
+  },
+  {
+    "exec": "xed %U",
+    "name": "Text Editor",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/accessories-text-editor.svg",
+    "categories": "GTK;Utility;TextEditor;",
+    "comment": "Edit text files",
+    "type": "Application"
+  },
+  {},
+  {
+    "exec": "/usr/bin/vivaldi-stable %U",
+    "name": "Vivaldi",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/vivaldi.svg",
+    "categories": "Network;WebBrowser;",
+    "comment": "Access the Internet",
+    "type": "Application"
+  },
+  {
+    "exec": "onboard",
+    "name": "Onboard",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/onboard.svg",
+    "categories": "Utility;Accessories;",
+    "comment": "Flexible onscreen keyboard",
+    "type": "Application"
+  },
+  {
+    "exec": "driver-manager",
+    "name": "Driver Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintdrivers.svg",
+    "categories": "GNOME;GTK;System;Settings;X-GNOME-SystemSettings;X-GNOME-Settings-Panel;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Additional and proprietary drivers",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-screensaver",
+    "name": "Screensaver",
+    "comment": "Launch screensaver and locker program",
+    "type": "Application"
+  },
+  {
+    "exec": "mintinstall",
+    "name": "Software Manager",
+    "categories": "System;",
+    "comment": "Install new applications",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-menu-editor",
+    "name": "Cinnamon Menu Editor",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/alacarte.svg",
+    "categories": "GNOME;GTK;Settings;DesktopSettings;",
+    "comment": "Edit the entries of the Cinnamon menu applet",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings wacom",
+    "name": "Graphics Tablet",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-tablet.svg",
+    "categories": "GNOME;GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;",
+    "comment": "Set button mappings and adjust stylus sensitivity for graphics tablets",
+    "type": "Application"
+  },
+  {
+    "exec": "cautious-launcher %f /usr/bin/java -jar",
+    "name": "OpenJDK Java 11 Runtime",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/openjdk-11.svg",
+    "comment": "OpenJDK Java 11 Runtime",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings desktop",
+    "name": "Desktop",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-desktop.svg",
+    "categories": "Settings;",
+    "comment": "Manage your desktop icons",
+    "type": "Application"
+  },
+  {
+    "exec": "nvim %F",
+    "name": "Neovim",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/nvim.svg",
+    "categories": "Utility;TextEditor;",
+    "comment": "Edit text files",
+    "type": "Application"
+  },
+  {
+    "exec": "hexchat --existing %U",
+    "name": "HexChat",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/hexchat.svg",
+    "categories": "GTK;Network;IRCClient;",
+    "comment": "Chat with other people online",
+    "type": "Application"
+  },
+  {
+    "exec": "redshift",
+    "name": "Redshift",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/redshift.svg",
+    "categories": "Utility;",
+    "comment": "Color temperature adjustment tool",
+    "type": "Application"
+  },
+  {
+    "exec": "mate-about",
+    "name": "About MATE",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mate-desktop.svg",
+    "categories": "GTK;Core;Utility;",
+    "comment": "Learn more about MATE",
+    "type": "Application"
+  },
+  {
+    "exec": "sticky",
+    "name": "Notes",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/sticky.svg",
+    "categories": "Application;Utility;",
+    "comment": "Take notes and stay organized",
+    "type": "Application"
+  },
+  {
+    "exec": "yubioath-desktop",
+    "name": "Yubico Authenticator",
+    "categories": "Utility;",
+    "comment": "Graphical interface for displaying OATH codes with a YubiKey.",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --impress %U",
+    "name": "LibreOffice Impress",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-impress.svg",
+    "categories": "Office;Presentation;",
+    "comment": "Create and edit presentations for slideshows, meeting and Web pages by using Impress.",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings notifications",
+    "name": "Notifications",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-notifications.svg",
+    "categories": "Settings;",
+    "comment": "Notification preferences",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/libexec/xdg-desktop-portal-xapp",
+    "name": "Portal",
+    "type": "Application"
+  },
+  {
+    "exec": "vim %F",
+    "name": "Vim",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/gvim.svg",
+    "categories": "Utility;TextEditor;",
+    "comment": "Edit text files",
+    "type": "Application"
+  },
+  {
+    "exec": "drawing %U",
+    "name": "Drawing",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/com.github.maoschanz.drawing.svg",
+    "categories": "Graphics;GNOME;GTK;",
+    "comment": "Simple drawing utility",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings color",
+    "name": "Color",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-color.svg",
+    "categories": "GTK;Settings;X-Cinnamon-Settings-Panel;HardwareSettings",
+    "comment": "Color management settings",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/bin/python2.7",
+    "name": "Python (v2.7)",
+    "icon": "/usr/share/pixmaps/python2.7.xpm",
+    "categories": "Development;",
+    "comment": "Python Interpreter (v2.7)",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/libexec/xdg-desktop-portal-gtk",
+    "name": "Portal",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings hotcorner",
+    "name": "Hot Corners",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-overview.svg",
+    "categories": "Settings;",
+    "comment": "Manage hotcorner settings",
+    "type": "Application"
+  },
+  {
+    "exec": "transmission-gtk %U",
+    "name": "Transmission",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/transmission.svg",
+    "categories": "Network;FileTransfer;P2P;GTK;",
+    "comment": "Download and share files over BitTorrent",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings themes",
+    "name": "Themes",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-themes.svg",
+    "categories": "Settings;",
+    "comment": "Manage themes to change how your desktop looks",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/share/code/code --open-url %U",
+    "name": "Visual Studio Code - URL Handler",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/vscode.svg",
+    "categories": "Utility;TextEditor;Development;IDE;",
+    "comment": "Code Editing. Redefined.",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings screensaver",
+    "name": "Screensaver",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-screensaver.svg",
+    "categories": "Settings;",
+    "comment": "Manage screen lock settings",
+    "type": "Application"
+  },
+  {
+    "exec": "pix --import-photos %U",
+    "name": "Import with Pix",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/pix.svg",
+    "categories": "GNOME;GTK;Graphics;Viewer;RasterGraphics;2DGraphics;Photography;",
+    "comment": "Import the photos on your camera card",
+    "type": "Application"
+  },
+  {
+    "exec": "qt5ct",
+    "name": "Qt5 Settings",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-desktop-theme.svg",
+    "categories": "Settings;DesktopSettings;Qt;",
+    "comment": "Qt5 Configuration Tool",
+    "type": "Application"
+  },
+  {
+    "exec": "mintupdate",
+    "name": "Update Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintupdate.svg",
+    "categories": "System;",
+    "comment": "Show and install available updates",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-disks --restore-disk-image %U",
+    "name": "Disk Image Writer",
+    "comment": "Write Disk Images to Devices",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings display",
+    "name": "Display",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-display.svg",
+    "categories": "GTK;Settings;HardwareSettings;X-Cinnamon-Settings-Panel;",
+    "comment": "Change resolution and position of monitors and projectors",
+    "type": "Application"
+  },
+  {
+    "exec": "onboard-settings",
+    "name": "Onboard Settings",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/onboard.svg",
+    "categories": "Settings;Accessibility;",
+    "comment": "Change Onboard settings",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/share/foo2zjs/hplj10xx_gui.tcl",
+    "name": "Reactivate HP LaserJet 1018/1020 after reloading paper",
+    "icon": "/usr/share/pixmaps/hplj1020_icon.png",
+    "categories": "System;",
+    "comment": "Click the button in this program when your printer ran out of paper and you have refilled the paper",
+    "type": "Application"
+  },
+  {
+    "exec": "mate-panel",
+    "name": "Panel",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mate-panel.svg",
+    "categories": "GTK;System;Core;",
+    "comment": "Launch other applications and provide various utilities to manage windows, show the time, etc.",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings",
+    "name": "System Settings",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-desktop.svg",
+    "categories": "Settings;",
+    "comment": "Control Center",
+    "type": "Application"
+  },
+  {
+    "exec": "webapp-manager",
+    "name": "Web Apps",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/webapp-manager.svg",
+    "categories": "Application;Network;",
+    "comment": "Run websites as if they were apps",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings privacy",
+    "name": "Privacy",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-privacy.svg",
+    "categories": "Settings;",
+    "comment": "Cinnamon privacy settings",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings accessibility",
+    "name": "Accessibility",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-universal-access.svg",
+    "categories": "Settings;",
+    "comment": "Configure accessibility features",
+    "type": "Application"
+  },
+  {
+    "exec": "nm-applet",
+    "name": "Network",
+    "comment": "Manage your network connections",
+    "type": "Application"
+  },
+  {
+    "exec": "nemo-autorun-software %u",
+    "name": "Autorun Prompt",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings default",
+    "name": "Preferred Applications",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-default-applications.svg",
+    "categories": "Settings;",
+    "comment": "Preferred Applications",
+    "type": "Application"
+  },
+  {
+    "exec": "bulky",
+    "name": "File Renamer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/bulky.svg",
+    "categories": "GTK;Utility;Core;",
+    "comment": "Rename files and directories",
+    "type": "Application"
+  },
+  {
+    "exec": "mintstick -m format",
+    "name": "USB Stick Formatter",
+    "categories": "System;",
+    "comment": "Format a USB stick",
+    "type": "Application"
+  },
+  {
+    "exec": "mintinstall",
+    "name": "Software Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintinstall.svg",
+    "categories": "Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Install new applications",
+    "type": "Application"
+  },
+  {
+    "exec": "firefox %u",
+    "name": "Firefox Web Browser",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/firefox.svg",
+    "categories": "GNOME;GTK;Network;WebBrowser;",
+    "comment": "Browse the World Wide Web",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings mouse",
+    "name": "Mouse and Touchpad",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-mouse.svg",
+    "categories": "Settings;",
+    "comment": "Control mouse and touchpad settings",
+    "type": "Application"
+  },
+  {
+    "exec": "mpv --player-operation-mode",
+    "name": "mpv Media Player",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mpv.svg",
+    "categories": "AudioVideo;Audio;Video;Player;TV;",
+    "comment": "Play movies and songs",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/share/code/code %F",
+    "name": "Visual Studio Code",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/vscode.svg",
+    "categories": "TextEditor;Development;IDE;",
+    "comment": "Code Editing. Redefined.",
+    "type": "Application"
+  },
+  {
+    "exec": "blueman-adapters",
+    "name": "Bluetooth Adapters",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/blueman-device.svg",
+    "categories": "X-XFCE;Settings;HardwareSettings;X-XFCE-SettingsDialog;GTK;",
+    "comment": "Set Bluetooth Adapter Properties",
+    "type": "Application"
+  },
+  {
+    "exec": "thunderbird %u",
+    "name": "Thunderbird Mail",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/thunderbird.svg",
+    "categories": "Application;Network;Email;",
+    "comment": "Send and receive mail with Thunderbird",
+    "type": "Application"
+  },
+  {
+    "exec": "info",
+    "name": "TeXInfo",
+    "categories": "Utility;Documentation;ConsoleOnly;",
+    "comment": "The viewer for TexInfo documents",
+    "type": "Application"
+  },
+  {
+    "exec": "apturl %u",
+    "name": "AptURL",
+    "categories": "System;",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings sound",
+    "name": "Sound",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-sound.svg",
+    "categories": "Settings;",
+    "comment": "Manage sound settings",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice %U",
+    "name": "LibreOffice",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-startcenter.svg",
+    "categories": "Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other;",
+    "comment": "The office productivity suite compatible to the open and standardized ODF document format. Supported by The Document Foundation.",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-system-monitor",
+    "name": "System Monitor",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.SystemMonitor.svg",
+    "categories": "GNOME;GTK;System;Monitor;",
+    "comment": "View current processes and monitor system state",
+    "type": "Application"
+  },
+  {
+    "exec": "mintstick -m iso",
+    "name": "USB Image Writer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintstick.svg",
+    "categories": "GNOME;GTK;Utility;",
+    "comment": "Make a bootable USB stick",
+    "type": "Application"
+  },
+  {
+    "exec": "mintinstall-fp-handler %u",
+    "name": "Software Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintinstall.svg",
+    "comment": "Mime handler for mintinstall",
+    "type": "Application"
+  },
+  {
+    "exec": "pix %U",
+    "name": "Pix",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/pix.svg",
+    "categories": "GNOME;GTK;Graphics;Viewer;RasterGraphics;2DGraphics;Photography;",
+    "comment": "View and organize your images",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-terminal",
+    "name": "Terminal",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Terminal.svg",
+    "categories": "GNOME;GTK;System;TerminalEmulator;",
+    "comment": "Use the command line",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/bin/cinnamon-launcher",
+    "name": "Cinnamon",
+    "categories": "GNOME;GTK;System;Core;",
+    "comment": "Window management and application launching",
+    "type": "Application"
+  },
+  {
+    "exec": "mate-color-select",
+    "name": "Color selection dialog",
+    "categories": "GNOME;GTK;Utility;Viewer;",
+    "comment": "Choose colors from the palette or the screen",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings effects",
+    "name": "Effects",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-desktop-effects.svg",
+    "categories": "Settings;",
+    "comment": "Control Cinnamon visual effects.",
+    "type": "Application"
+  },
+  {
+    "exec": "sh -c 'STEAM_FRAME_FORCE_CLOSE",
+    "name": "Steam",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/steam.svg",
+    "categories": "Network;FileTransfer;Game;",
+    "comment": "Application for managing and playing games on Steam",
+    "type": "Application"
+  },
+  {
+    "exec": "xreader %U",
+    "name": "Document Viewer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/xreader.svg",
+    "categories": "GTK;Utility;Viewer;",
+    "comment": "View multi-page documents",
+    "type": "Application"
+  },
+  {
+    "exec": "mintlocale-im",
+    "name": "Input method",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintlocale-im.svg",
+    "categories": "GNOME;GTK;Settings;DesktopSettings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Language settings",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings info",
+    "name": "System Info",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-details.svg",
+    "categories": "Settings;",
+    "comment": "Display system information",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/libexec/geoclue-2.0/demos/agent",
+    "name": "Geoclue Demo agent",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/bin/python3.10",
+    "name": "Python (v3.10)",
+    "icon": "/usr/share/pixmaps/python3.10.xpm",
+    "categories": "Development;",
+    "comment": "Python Interpreter (v3.10)",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-calendar %U",
+    "name": "Calendar",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Calendar.svg",
+    "categories": "GNOME;GTK;Office;Calendar;Core;",
+    "comment": "Access and manage your calendars",
+    "type": "Application"
+  },
+  {
+    "exec": "yelp %u",
+    "name": "Help",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Yelp.svg",
+    "categories": "GNOME;GTK;Core;Documentation;Utility;",
+    "comment": "Get help with GNOME",
+    "type": "Application"
+  },
+  {
+    "exec": "timeshift-launcher",
+    "name": "Timeshift",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/timeshift.svg",
+    "categories": "System;",
+    "comment": "System Restore Utility",
+    "type": "Application"
+  },
+  {
+    "exec": "pkexec lightdm-settings",
+    "name": "Login Window",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/lightdm-settings.svg",
+    "categories": "GNOME;GTK;Settings;System;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Configure the login window",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/libexec/gcr-prompter",
+    "name": "Access Prompt",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/security-medium.svg",
+    "comment": "Unlock access to passwords and other secrets",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings applets",
+    "name": "Applets",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-applets.svg",
+    "categories": "Settings;",
+    "comment": "Manage Cinnamon applets",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings tiling",
+    "name": "Window Tiling",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-tiling.svg",
+    "categories": "Settings;",
+    "comment": "Manage window tiling preferences",
+    "type": "Application"
+  },
+  {
+    "exec": "thingy",
+    "name": "Library",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/thingy.svg",
+    "categories": "GTK;Office;",
+    "comment": "Recent and favorite documents",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-killer-daemon",
+    "name": "Cinnamon Killer Daemon",
+    "comment": "Restarts Cinnamon and Nemo when a key combination is pressed",
+    "type": "Application"
+  },
+  {
+    "exec": "muffin",
+    "name": "Muffin",
+    "type": "Application"
+  },
+  {
+    "exec": "mintstick -m iso",
+    "name": "USB Image Writer",
+    "categories": "System;",
+    "comment": "Make a bootable USB stick",
+    "type": "Application"
+  },
+  {
+    "exec": "seahorse",
+    "name": "Passwords and Keys",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.seahorse.Application.svg",
+    "categories": "GNOME;GTK;Security;Utility;DesktopSettings;X-XFCE-SettingsDialog;",
+    "comment": "Manage your passwords and encryption keys",
+    "type": "Application"
+  },
+  {
+    "exec": "libreoffice --writer %U",
+    "name": "LibreOffice Writer",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/libreoffice-writer.svg",
+    "categories": "Office;WordProcessor;",
+    "comment": "Create and edit text and graphics in letters, reports, documents and Web pages by using Writer.",
+    "type": "Application"
+  },
+  {
+    "exec": "mintstick -m format",
+    "name": "USB Stick Formatter",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintstick.svg",
+    "categories": "GNOME;GTK;Utility;",
+    "comment": "Format a USB stick",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-logs",
+    "name": "Logs",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Logs.svg",
+    "categories": "GTK;GNOME;System;Monitor;Utility;X-GNOME-Utilities;",
+    "comment": "View detailed event logs for the system",
+    "type": "Application"
+  },
+  {
+    "exec": "mintreport",
+    "name": "System Reports",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintreport.svg",
+    "categories": "Application;System;Settings;",
+    "comment": "Troubleshoot problems",
+    "type": "Application"
+  },
+  {
+    "exec": "gkbd-keyboard-display",
+    "name": "Keyboard Layout",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-desktop-keyboard.svg",
+    "categories": "GNOME;GTK;Core;System;",
+    "comment": "Preview keyboard layouts",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings user",
+    "name": "Account details",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-user.svg",
+    "categories": "Settings;",
+    "comment": "Change your user preferences and password",
+    "type": "Application"
+  },
+  {
+    "exec": "redshift-gtk",
+    "name": "Redshift",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/redshift.svg",
+    "categories": "Utility;",
+    "comment": "Color temperature adjustment tool",
+    "type": "Application"
+  },
+  {
+    "exec": "i3",
+    "name": "i3",
+    "comment": "improved dynamic tiling window manager",
+    "type": "Application"
+  },
+  {
+    "exec": "metacity",
+    "name": "Metacity",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-system-windows.svg",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-system-monitor",
+    "name": "GNOME System Monitor",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.SystemMonitor.svg",
+    "categories": "GNOME;GTK;System;Monitor;",
+    "comment": "View current processes and monitor system state",
+    "type": "Application"
+  },
+  {
+    "exec": "mintreport-tray",
+    "name": "System Reports",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintreport.svg",
+    "categories": "Application;System;Settings;",
+    "comment": "Troubleshoot problems",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings keyboard",
+    "name": "Keyboard",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-keyboard.svg",
+    "categories": "Settings;",
+    "comment": "Manage keyboard settings and shortcuts",
+    "type": "Application"
+  },
+  {
+    "exec": "nm-connection-editor",
+    "name": "Advanced Network Configuration",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-system-network.svg",
+    "categories": "GNOME;GTK;Settings;X-GNOME-NetworkSettings;X-GNOME-Utilities;",
+    "comment": "Manage and change your network connection settings",
+    "type": "Application"
+  },
+  {
+    "exec": "mintupdate",
+    "name": "Update Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintupdate.svg",
+    "categories": "Application;System;Settings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Show and install available updates",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon --replace",
+    "name": "Cinnamon (Wayland session)",
+    "categories": "GNOME;GTK;System;Core;",
+    "comment": "Window management and application launching",
+    "type": "Application"
+  },
+  {
+    "exec": "mintwelcome",
+    "name": "Welcome Screen",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintwelcome.svg",
+    "categories": "GNOME;GTK;Settings;DesktopSettings;",
+    "comment": "Introduction to Linux Mint",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-screenshot --interactive",
+    "name": "Screenshot",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Screenshot.svg",
+    "categories": "GTK;GNOME;Utility;X-GNOME-Utilities;",
+    "comment": "Save images of your screen or individual windows",
+    "type": "Application"
+  },
+  {
+    "exec": "csd-automount",
+    "name": "Files",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/bin/gcr-viewer",
+    "name": "View file",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings-users",
+    "name": "Users and Groups",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/system-users.svg",
+    "categories": "System;Settings;",
+    "comment": "Add or remove users and groups",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/lib/notification-daemon/notification-daemon",
+    "name": "Notification Daemon",
+    "comment": "Display notifications",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings windows",
+    "name": "Windows",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-windows.svg",
+    "categories": "Settings;",
+    "comment": "Manage window preferences",
+    "type": "Application"
+  },
+  {
+    "exec": "im-config",
+    "name": "Input Method",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/input-keyboard.svg",
+    "categories": "Settings",
+    "comment": "Set Keyboard Input Method",
+    "type": "Application"
+  },
+  {
+    "exec": "mintlocale",
+    "name": "Languages",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/preferences-desktop-locale.svg",
+    "categories": "GNOME;GTK;Settings;DesktopSettings;XFCE;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;",
+    "comment": "Language settings",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings calendar",
+    "name": "Date & Time",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-date-time.svg",
+    "categories": "Settings;",
+    "comment": "Manage date and time settings",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings power",
+    "name": "Power Management",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-power.svg",
+    "categories": "Settings;",
+    "comment": "Manage power settings",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-calculator",
+    "name": "Calculator",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Calculator.svg",
+    "categories": "GNOME;GTK;Utility;Calculator;",
+    "comment": "Perform arithmetic, scientific or financial calculations",
+    "type": "Application"
+  },
+  {
+    "exec": "gnome-power-statistics",
+    "name": "Power Statistics",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.PowerStats.svg",
+    "categories": "GNOME;GTK;System;Monitor;",
+    "comment": "Observe power management",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings startup",
+    "name": "Startup Applications",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-startup-programs.svg",
+    "categories": "Settings;",
+    "comment": "Manage your startup applications",
+    "type": "Application"
+  },
+  {},
+  {
+    "exec": "gucharmap",
+    "name": "Character Map",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/accessories-character-map.svg",
+    "categories": "GNOME;GTK;Utility;",
+    "comment": "Insert special characters into documents",
+    "type": "Application"
+  },
+  {
+    "exec": "synaptic-pkexec",
+    "name": "Synaptic Package Manager",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/synaptic.svg",
+    "categories": "PackageManager;GTK;System;Settings;",
+    "comment": "Install, remove and upgrade software packages",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings actions",
+    "name": "Actions",
+    "categories": "Settings;",
+    "comment": "Manage your actions",
+    "type": "Application"
+  },
+  {
+    "exec": "mintbackup",
+    "name": "Backup Tool",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/mintbackup.svg",
+    "categories": "Application;System;Settings",
+    "comment": "Make a backup of your home directory",
+    "type": "Application"
+  },
+  {
+    "exec": "hypnotix",
+    "name": "Hypnotix",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/hypnotix.svg",
+    "categories": "AudioVideo;Video;Player;TV;",
+    "comment": "Watch TV",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings panel",
+    "name": "Panel",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-panel.svg",
+    "categories": "Settings;",
+    "comment": "Manage Cinnamon panel settings",
+    "type": "Application"
+  },
+  {
+    "exec": "rhythmbox %U",
+    "name": "Rhythmbox",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/org.gnome.Rhythmbox.svg",
+    "categories": "GNOME;GTK;AudioVideo;Audio;Player;",
+    "comment": "Play and organize your music collection",
+    "type": "Application"
+  },
+  {
+    "exec": "cinnamon-settings general",
+    "name": "General",
+    "icon": "/usr/share/icons/Numix-Circle/48/apps/cs-general.svg",
+    "categories": "Settings;",
+    "comment": "Miscellaneous Cinnamon preferences",
+    "type": "Application"
+  },
+  {
+    "exec": "/usr/libexec/evolution-data-server/evolution-alarm-notify",
+    "name": "Evolution Alarm Notify",
+    "comment": "Calendar event notifications",
+    "type": "Application"
+  }
+]

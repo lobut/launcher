@@ -142,22 +142,22 @@ code {
 }
 
 .versions {
-  position: absolute;
   bottom: 30px;
   margin: 0 auto;
   padding: 15px 0;
   font-family: 'Menlo', 'Lucida Console', monospace;
-  display: inline-flex;
   overflow: hidden;
-  align-items: center;
-  border-radius: 22px;
+  border-radius: 2px;
   background-color: #202127;
   backdrop-filter: blur(24px);
 }
 
+.btn-launcher:focus {
+  outline: 1px dashed red;
+}
+
 .versions li {
   display: block;
-  float: left;
   border-right: 1px solid var(--ev-c-gray-1);
   padding: 0 20px;
   font-size: 14px;
@@ -174,11 +174,15 @@ code {
   }
 }
 
-@media (max-width: 620px) {
+button {
+  all: unset;
+}
+
+/* @media (max-width: 620px) {
   .versions {
     display: none;
   }
-}
+} */
 
 @media (max-width: 350px) {
   .tip,

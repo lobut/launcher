@@ -1,12 +1,27 @@
-import { app, shell, BrowserWindow, ipcMain, globalShortcut } from 'electron';
+import { app, shell, BrowserWindow, ipcMain, globalShortcut, protocol, net } from 'electron';
 import { join } from 'path';
 import { electronApp, optimizer, is } from '@electron-toolkit/utils';
 import icon from '../../resources/icon.png?asset';
+import { TracerStrategyFactory } from './tracer/TracerFactory';
 
 const DEFAULT_WIDTH = 500;
 const DEFAULT_HEIGHT = 150;
 
 const ALTERED_HEIGHT = 550;
+
+/**
+ * First, you need to register your scheme before the app starts.
+ */
+protocol.registerSchemesAsPrivileged([
+  {
+    scheme: 'media',
+    privileges: {
+      secure: true,
+      supportFetchAPI: true,
+      bypassCSP: true
+    }
+  }
+]);
 
 function createWindow(): BrowserWindow {
   // Create the browser window.
@@ -28,6 +43,7 @@ function createWindow(): BrowserWindow {
   });
 
   mainWindow.center();
+
   setTimeout(() => {
     mainWindow.setSize(DEFAULT_WIDTH, ALTERED_HEIGHT);
   }, 0);
@@ -38,6 +54,13 @@ function createWindow(): BrowserWindow {
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show();
+    console.log('show', new Date());
+
+    const tracer = TracerStrategyFactory().scan();
+    tracer.then((settings) => {
+      mainWindow.webContents.send('load-complete', settings);
+      console.log('load-complete', new Date());
+    });
   });
 
   mainWindow.webContents.setWindowOpenHandler((details) => {
@@ -70,7 +93,7 @@ app.whenReady().then(() => {
   });
 
   // IPC test
-  ipcMain.on('ping', () => console.log('pong'));
+  ipcMain.on('ping', (event, args) => console.log('pong', args));
 
   let mainWindow = createWindow();
 
@@ -82,6 +105,11 @@ app.whenReady().then(() => {
 
   globalShortcut.register('CommandOrControl+Space', () => {
     mainWindow.show();
+  });
+
+  protocol.handle('media', (req) => {
+    const pathToMedia = new URL(req.url).pathname;
+    return net.fetch(`file://${pathToMedia}`);
   });
 });
 
